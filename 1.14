@@ -1,0 +1,18 @@
+# Tarea-1-de-IPOO
+
+#include <stdio.h>
+
+main()
+{
+    int c,d;
+
+    while ((c=getchar())!=EOF)
+    {
+        if (c!='\n')
+        {
+            for (d=0;d<c;++d)
+                putchar('*');
+            putchar('\n');
+        }
+    }
+}
